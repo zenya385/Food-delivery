@@ -1,0 +1,28 @@
+.shop{
+    display: block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+    // justify-content: center;
+
+&__title{
+    height: 30px;
+    margin-bottom: 15px;
+justify-content: center;
+}
+&__item{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 40px;                               
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

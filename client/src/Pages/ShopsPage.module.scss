@@ -1,0 +1,15 @@
+.shop{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,1fr);
+   
+// &__list{
+
+// }
+&__prod{
+    grid-column-start: 2;
+    grid-column-end: 4;
+  
+}
+
+}
