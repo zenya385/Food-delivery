@@ -1,13 +1,12 @@
-import React from 'react';
-import ProdList from './ProdList';
+import React from "react";
+import ProdList from "./ProdList";
 
 const Prod = () => {
-    return (
+  return (
     <>
-       
-        <ProdList/>
-        </>
-    );
-}
+      <ProdList />
+    </>
+  );
+};
 
 export default Prod;

@@ -1,10 +1,21 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import {getCard} from '../../redux/products/productsSlice';
+
 
 import s from "./ProdItem.module.scss";
 
 const ProdItem = ({ image, name, description, price, info }) => {
- 
+  const dispatch = useDispatch();
+
+const addCard =(obj)=>{
+  console.log('obj :>> ', obj);
+  dispatch(getCard(obj))
+  
+}
+
   return (
+    
     <li className={s.list__item} >
       <div className={s.list__wrap}>
         <img className={s.list__img} src={image} alt={name} />
@@ -18,7 +29,7 @@ const ProdItem = ({ image, name, description, price, info }) => {
         <p className={s.list__text}>{price}грн</p>
       </div>
       <div className={s.list__btnW}>
-        <button className={s.list__btn}>Add to card</button>
+        <button className={s.list__btn} onClick={()=>{addCard({image, name, price, info})}}>Add to card</button>
       </div>
     </li>
   );
