@@ -5,9 +5,10 @@ const path = require("path");
 
 require("dotenv").config();
 
-const usersRouter = require("./routes/api/users");
+const userRouter = require("./routes/api/users");
 const shopsRouter = require("./routes/api/shops");
 const productsRouter = require("./routes/api/products");
+
 
 const app = express();
 
@@ -18,9 +19,9 @@ app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 
-app.use("/auth", usersRouter);
 app.use("/shops", shopsRouter);
 app.use("/products", productsRouter);
+app.use("/user", userRouter);
 // app.use(express.static("public"));
 
 app.use((req, res) => {

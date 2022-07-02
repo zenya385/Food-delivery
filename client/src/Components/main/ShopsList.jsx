@@ -3,7 +3,6 @@ import s from "./ShopsList.module.scss";
 // import data from '../../data/shops.json';
 
 const ShopsList = ({ data }) => {
-  // console.log('data', data)
   return (
     <>
       <ul className={s.shop}>

@@ -1,4 +1,4 @@
-const { Users } = require("../db/usersModel");
+const { Users } = require("../db/userModel");
 const jwt = require("jsonwebtoken");
 const { JWT_SECRET } = process.env;
 const { Unauthorized } = require("http-errors");

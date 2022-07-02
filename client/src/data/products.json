@@ -1,81 +1,126 @@
 [
-    {
-    "id": "111",
-    "name": "Гречка",
-    "image": "https://content2.rozetka.com.ua/goods/images/big/206104149.jpg",
-    "description": " 1кг",
-    "info":"Поширеною залишається версія, що назва «гречка» з'явилася за часів середньовічної Русі, оскільки цю культуру вирощували в монастирях, ченці яких були греками. Проте гречка була відома в Україні ще до появи християнства.",
-    "price": 79,
-    "store":"Fora"
-    
-  },
   {
-    "id": "222",
-    "name": "Цукор",
-    "image": "https://content1.rozetka.com.ua/goods/images/big/224553238.jpg",
-    "description": " 1кг",
-    "info":"Досліди на пацюках показали, що вживання цукру викликає залежність, при цьому «зміни в мозку, що викликаються цукром, дуже схожі на ті, що виникають під дією кокаїну, морфію чи нікотину»",
-    "price": 54,
-    "store":"Silpo"
-    
-  },
-  {
-    "id": "333",
-    "name": "Піца",
-    "image": "https://mafia.ua/storage/editor/fotos/480x0/picca-ohotnichya-xxl_1542267870257.jpeg",
-    "description": "500гр",
-    "info":"В Україні піца значного поширення набула лише після отримання незалежності, а разом з тим вільний доступ і до закордонних продуктів і страв. У Чернігові перша піцерія (Піцерія 'Базис') відкрилася у 1987 році",
-    "price": 99,
-    "store":"McDon"
-   
-  },
-  {
-    "id": "444",
-    "name": "Піца",
-    "image": "https://i.gyazo.com/84d44a4c94cda871ac69683d49e7d232.jpg",
-    "description": "500гр",
-    "info":"В Україні піца значного поширення набула лише після отримання незалежності, а разом з тим вільний доступ і до закордонних продуктів і страв. У Чернігові перша піцерія (Піцерія 'Базис') відкрилася у 1987 році",
-    "price": 99,
-    "store":"KFC"
-   
-  },
-  {
-    "id": "555",
-    "name": "Піца",
-    "image": "https://mafia.ua/storage/editor/fotos/480x0/picca-ohotnichya-xxl_1542267870257.jpeg",
-    "description": "500гр",
-    "info":"В Україні піца значного поширення набула лише після отримання незалежності, а разом з тим вільний доступ і до закордонних продуктів і страв. У Чернігові перша піцерія (Піцерія 'Базис') відкрилася у 1987 році",
-    "price": 99,
-    "store":"McDon"
-   
-  },
-  {
-    "id": "666",
-    "name": "Піца",
-    "image": "https://mafia.ua/storage/editor/fotos/480x0/picca-ohotnichya-xxl_1542267870257.jpeg",
-    "description": "500гр",
-    "info":"В Україні піца значного поширення набула лише після отримання незалежності, а разом з тим вільний доступ і до закордонних продуктів і страв. У Чернігові перша піцерія (Піцерія 'Базис') відкрилася у 1987 році",
-    "price": 99,
-    "store":"KFC"
-   
-  },
-  {
-    "id": 1,
     "name": "Pizza",
     "price": 18,
     "store": "McFood",
     "image": "https://i.gyazo.com/84d44a4c94cda871ac69683d49e7d232.jpg",
-    "description":"385гр",
-    "info":"sfg"
+    "description": "385g",
+    "info": "The word pizza first appeared in a Latin text from the central Italian city of Gaeta, then part of the Byzantine Empire, in 997 AD. e.; the text states that the tenant of certain properties must give the Bishop of Gaeta duodecim pizze ('twelve pizzas') every Christmas, and another twelve every Easter Sunday."
   },
-    {
-    "id": 2,
+  {
     "name": "Cup Cake",
     "price": 10,
-    "store": "CiCake",
-    "image": "https://i.gyazo.com/4d318e430714078a93823318a46046a5.jpg",
-    "description":"85гр",
-    "info":"sfg"
+    "shop": "Masha Cake",
+    "img": "https://i.gyazo.com/4d318e430714078a93823318a46046a5.jpg",
+    "description": "85g",
+    "info": "In the early 19th century, there were two different uses for the term cup cake or cupcake. In previous centuries, before muffin tins were widely available, the cakes were often baked in individual pottery cups, ramekins, or molds and took their name from the cups they were baked in."
+  },
+  {
+    "name": "World Famous Fries",
+    "price": 5,
+    "shop": "McFood",
+    "img": "https://i.gyazo.com/04077a553eb961f422f9ec650e737363.jpg",
+    "description": "55g",
+    "info": "The potatoes are prepared by first cutting them (peeled or unpeeled) into even strips, which are then wiped off or soaked in cold water to remove the surface starch, and thoroughly dried.] They may then be fried in one or two stages. Chefs generally agree that the two-bath technique produces better results. Potatoes fresh out of the ground can have too high a water content—resulting in soggy fries—so preference is for those that have been stored for a while."
+  },
+  {
+    "name": "Pasta",
+    "price": 23,
+    "shop": "McFood",
+    "img": "https://i.gyazo.com/f143c446f3fd7db04609d84e1a73e011.jpg",
+    "description": "220g",
+    "info": "Pastas are divided into two broad categories: dried (pasta secca) and fresh (pasta fresca). Most dried pasta is produced commercially via an extrusion process, although it can be produced at home. Fresh pasta is traditionally produced by hand, sometimes with the aid of simple machines.[3] Fresh pastas available in grocery stores are produced commercially by large-scale machines."
+  },
+  {
+
+    "name": "Hotdog",
+    "price": 3,
+    "shop": "McFood",
+    "img": "https://i.gyazo.com/7f1713b566fedd589dfd3d3b7581f9e3.jpg",
+    "description": "85g",
+    "info": "These types of sausages were culturally imported from Germany and became popular in the United States. It became a working-class street food in the U.S., sold at stands and carts. The hot dog became closely associated with baseball and American culture. Although particularly connected with New York City and its cuisine, the hot dog eventually became ubiquitous throughout the US during the 20th century. Its preparation varies regionally in the country, emerging as an important part of other regional cuisines, including Chicago street cuisine."
+  },
+  {
+    "name": "Shish kebab",
+    "price": 23,
+    "shop": "McFood",
+    "img": "https://i.gyazo.com/fcd597994dee30e4a4c35cc05ef03bc4.jpg",
+    "description": "105g",
+    "info": "The word kebab alone was already present in English by the late 17th century, from the Arabic: كَبَاب (kabāb), partly through Urdu, Persian and Turkish. Etymologist Sevan Nişanyan states that the word has the equivalent meaning of frying burning with kabābu in the old Akkadian language, and kbabā/כבבא in Aramaic. The oldest known example of şiş, probably originally meaning a pointed stick, comes from the 11th-century Dīwān Lughāt al-Turk, attributed to Mahmud of Kashgar."
+  },
+  {
+    "name": "Hamburger",
+    "price": 17,
+    "img": "https://i.gyazo.com/6c8304bcb37182d49a868fb049dcbb78.jpg",
+    "description": "120g",
+    "info": "The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used, or the term can even refer simply to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In Australia and New Zealand, a piece of chicken breast on a bun is known as a chicken burger, which would generally not be considered to be a burger in the United States."
+  },
+  {
+    "name": "BigHamburger",
+    "price": 25,
+    "shop": "Good Food",
+    "img": "https://i.gyazo.com/5b8743345818e1a04f498484e091006a.jpg",
+    "description": "185g",
+    "info": "The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used, or the term can even refer simply to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In Australia and New Zealand, a piece of chicken breast on a bun is known as a chicken burger, which would generally not be considered to be a burger in the United States."
+  },
+  {
+
+    "name": "Loaf",
+    "price": 17,
+    "shop": "Good Food",
+    "img": "https://i.gyazo.com/ea24476fee16db8fb826dcbe62e86c68.jpg",
+    "description": "80g",
+    "info": "The same principle applies to non-bread products such as meatloaf and cakes that are cooked so as to retain their shape during the cooking process. In determining the size of the loaf, the cook or baker must take into consideration the need for heat to penetrate the loaf evenly during the cooking process, so that no parts are overcooked or undercooked."
+  },
+  {
+
+    "name": "Mushrooms",
+    "price": 25,
+    "shop": "Good Food",
+    "img": "https://i.gyazo.com/7735e0558c6d628b56ce12349ccdb9a1.jpg",
+    "description":"385",
+    "info":"Typical mushrooms are the fruit bodies of members of the order Agaricales, whose type genus is Agaricus and type species is the field mushroom, Agaricus campestris. However, in modern molecularly defined classifications, not all members of the order Agaricales produce mushroom fruit bodies, and many other gilled fungi, collectively called mushrooms"
+  },
+  {
+    "name": "Meat skewer",
+    "price": 30,
+    "shop": "Good Food",
+    "img": "https://i.gyazo.com/3029195a1a83da142f16ce70e1db068c.jpg",
+    "description":"132g",
+    "info":"In Greek culture, the practice of cooking food on spits or skewers historically dates back to the Bronze Age. Excavations in Santorini, Greece, unearthed sets of stone cooking supports used by the natives of the island before the Thera eruption of the 17th century BC; souvlaki was a popular delicacy in Santorini back in 2000 BC. In the stone cooking supports, there are pairs of indentations that were likely used for holding skewers and the line of holes in the base allowed the coals to be supplied with air."
+  },
+  {
+    "name": "Canape",
+    "price": 10,
+    "shop": "Good Food",
+    "img": "https://i.gyazo.com/7ea92db0fb279e4fc75e5cfb28771865.jpg",
+    "description": "55g",
+    "info": "A canapé (French: kanape) is a type of hors d'oeuvre, a small, prepared, and often decorative food, consisting of a small piece of bread (sometimes toasted), puff pastry, or a cracker wrapped or topped with some savoury food, held in the fingers and often eaten in one bite."
+  },
+  {
+    "name": "Strawberry dessert",
+    "price": 23,
+    "shop": "Masha Cake",
+    "img": "https://i.gyazo.com/e0e3c1c1bf67d41994de601c9cad957f.jpg",
+    "description":"75гр",
+    "info":"Strawberry pie mostly consists of strawberries, sugar, a pie crust, and sometimes gelatin. Usually about 70% of the pie by weight is strawberries. It is often served with whipped cream, or sometimes with ice cream."
+  },
+  {
+    "name": "Eclair",
+    "price": 20,
+    "shop": "Masha Cake",
+    "img": "https://i.gyazo.com/b003d052ded25d7b205bec55c32f43e8.jpg",
+    "description": "45гр",
+    "info": "The éclair originated during the nineteenth century in France where it was called pain à la Duchesse or petite duchesse until 1850. The word is first attested both in English and in French in the 1860s."
+  },
+  {
+    "name": "Cake",
+    "price": 25,
+    "shop": "Masha Cake",
+    "img": "https://i.gyazo.com/706e17192ccad617496595fe660e9ff8.jpg",
+    "description": "85гр",
+    "info": "Cake is a flour confection made from flour, sugar, and other ingredients, and is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate, and which share features with desserts such as pastries, meringues, custards, and pies."
   }
+
   
 ]

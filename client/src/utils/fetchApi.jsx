@@ -13,3 +13,7 @@ export async function getProductInfoApi() {
     const productsInfo = await axios.get("products");
     return productsInfo.data ;
   }
+export async function sendUserInfoApi(data) {
+    const userInfo = await axios.post("user", data);
+    return userInfo ;
+  }

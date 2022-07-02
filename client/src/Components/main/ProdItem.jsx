@@ -8,11 +8,10 @@ import s from "./ProdItem.module.scss";
 const ProdItem = ({ image, name, description, price, info }) => {
   const dispatch = useDispatch();
 
-const addCard =(obj)=>{
-  console.log('obj :>> ', obj);
-  dispatch(getCard(obj))
-  
-}
+  const addCard =(obj)=>{
+    dispatch(getCard(obj))
+    
+  }
 
   return (
     
@@ -26,7 +25,7 @@ const addCard =(obj)=>{
         <h2 className={s.list__title}>
           {name}, {description}
         </h2>
-        <p className={s.list__text}>{price}грн</p>
+        <p className={s.list__text}>${price}</p>
       </div>
       <div className={s.list__btnW}>
         <button className={s.list__btn} onClick={()=>{addCard({image, name, price, info})}}>Add to card</button>

@@ -1,23 +1,10 @@
 const express = require("express");
 const authorize = require("../../middlewares/authorize");
-
-const { schemas } = require("../../db/shopsModel");
-const {
-	catchLogErrors,
-	catchSignupErrors,
-	catchErrors,
-} = require("../../middlewares/catchErrors");
+const { addUserControl } = require("../../controllers/user");
+const { catchErrors } = require("../../middlewares/catchErrors");
 
 const router = express.Router();
 
-// router.post(
-// 	"/signup",
-// 	schemas.postAuthValidation,
-// 	catchSignupErrors(signupUserControl)
-// );
-// router.post("/login", schemas.postAuthValidation, catchLogErrors(signinUserControl));
-// router.post("/logout", authorize, catchErrors(logoutUserControl));
-// router.get("/current", authorize, catchErrors(currentUserControl));
-// router.post("/refresh", authorize, catchErrors(refreshTokenControl));
+router.post("/", catchErrors(addUserControl));
 
 module.exports = router;

@@ -26,7 +26,6 @@ const productsSlice = createSlice({
     // },
 
     getCard(state, { payload }) {
-        console.log('payload', payload)
       state.productToCart = [...state.productToCart,payload];
       
     },
