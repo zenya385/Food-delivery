@@ -7,7 +7,7 @@ const ProdList = ({ data, activeShop }) => {
   let shops = [];
   activeShop === "All"
     ? (shops = data)
-    : (shops = data.filter((el) => el.store === activeShop));
+    : (shops = data.filter((el) => el.shop === activeShop));
 
   return (
     <>

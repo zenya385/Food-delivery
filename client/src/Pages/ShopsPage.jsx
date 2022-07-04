@@ -20,11 +20,21 @@ const ShopsPage = () => {
       dispatch(getShopsOperations());
     }, []);
 
+    const handleShopValue = (e) => {
+      console.log('e.target :>> ', e.target);
+      setActiveShop(e.target.value)
+      }
+      console.log('activeShop :>> ', activeShop);
+
   return (
     <div className={s.shop}>
-      { Boolean(shops) &&<ShopsList data={shops} />}
+      { Boolean(shops) &&<ShopsList 
+      data={shops} 
+      activeShop={activeShop}
+      handleShopValue={handleShopValue}/>}
       <div className={s.shop__prod}>
      { Boolean(products) && <ProdList
+
           data={products}
           activeShop={activeShop}
           setActiveShop={setActiveShop}

@@ -13,12 +13,12 @@ const ShoppingCartPage = () => {
         <>
       <div className={s.cart}>
         <UserInfoForm/>
-        {product.length && (<ProdCartItem/>)}
-        {!product.length && <p className=''>add products!</p>}
+        {!!product.length  && <ProdCartItem/>}
+        {!product.length && <p className={s.cart__item}>Add products, please!</p>}
         </div>
-        <div>
-        <h3>Total price:</h3>
-        <button className={s.list__btn} onSubmit={null} type="submit">submit</button>
+        <div className={s.wrapper}>
+        <h3>Total price:$$${null}</h3>
+        <button className={s.wrapper__btn} onSubmit={null} type="submit">submit</button>
         </div>
         </>
     );

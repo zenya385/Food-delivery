@@ -12,7 +12,9 @@ const ProdCartItem = (image, name, price) => {
 
   
     return (
-      product.map( el=>   <li className={s.list__item} >
+      <ul className={s.list}>
+     { product.map( el=>   
+      <li className={s.list__item} >
         <div className={s.list__wrap}>
           <img className={s.list__img} src={el.image} alt={el.name} />
         </div>
@@ -21,11 +23,11 @@ const ProdCartItem = (image, name, price) => {
           {el.name}
         </h2>
           <p className={s.list__text}>${el.price}</p>
-        </div>
        <input className={s.list__input} type="number"  />
+        </div>
        <button className={s.list__btn} onSubmit={null} type="submit">delete</button>
-      </li>)
-  
+      </li>)}
+      </ul>
        );
       }
 
